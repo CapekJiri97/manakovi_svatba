@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karolína & Jiří</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #1b3f6d;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #F5F5EF;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5em;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 10%;
+            right: 10%;
+            height: 5px;
+            background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgwIiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCAxMjgwIDQiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgogICAgPHBhdGggZD0iTTAgMmMwLjUgMSAxLjUgMSAxLjUgMUgxMjc4YzAtMSAxLTEuNSA0LTEuNSIvPgo8L3N2Zz4=') repeat-x;
+            background-size: contain;
+            height: 6px;
+        }
+
+        .section img {
+            max-width: 75%;
+            height: auto;
+            margin: 10px;
+            border-radius: 3px;
+        }
+        .section p{
+            margin: 0px;
+        }
+
+        .text {
+            max-width: 600px;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        .text h2 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2em;
+        }
+
+        .rsvp-link {
+            color: #1b3f6d;
+            text-decoration: underline;
+        }
+
+        .textkolaz {
+            max-width: 1200px;
+            padding: 20px;
+            text-align: center;
+        }
+        .textkolaz h2 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2em;
+        }
+
+        .kolaz {
+            max-width: 90vw;
+
+        }
+        .hero{
+            display: flex;
+            max-height: 100vh;
+            max-width: 100vw;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                flex-direction: column;
+            }
+
+            .text {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <header >
+            <h1 >Karolína & Jiří</h1>
+        </header>
+    </div>   
+    <div class="section" >
+        <img src="foto1.jpg" alt="Karolína a Jiří">
+        <div class="text">
+            <p>Hned dvě kytice jsme chytili na svatbách v roce 2023 (díky Jani a Bětko). Málo kdo nám věřil, že do roka a do dne to stihneme. Přesto jsme 30. dubna 2024 byli právoplatně prohlášeni za manžele. Budeme rádi, když 21. června 2025 budete s námi.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="text">
+            <h2>Základní informace</h2>
+            <p>Penzion Na Čechách - Korouhev 3, 572 01 Korouhev, Česko<br>
+                Svatební obřad začne ve 13:00 přímo na místě, prosíme koordinujte svůj příjezd po 11:00.<br>
+                Svatební obřad a hostina se bude konat na louce, doporučujeme obuv bez vysokých podpatků.<br>
+                Budeme rádi, když se vyhnete zářivým barvám oblečení a zvolíte ležérně elegantní oděv.<br>
+                Na místě už kraluje jeden pejsek i kočička a očekáváme velkou dětskou účast, zvážíte prosím přítomnost vašich čtyřnohých miláčků.
+            </p>
+        </div>
+        <img src="foto2.jpg" alt="Penzion">
+    </div>
+
+    <div class="section">
+        <div class="text">
+            <h2>RSVP</h2>
+            <p>Prosíme Vás o potvrzení účasti a vyplnění dotazníku nejpozději 31.3.2025. Pokud se něco nečekaně změní, kontaktujte nás napřímo.<br>
+                <a href="https://forms.gle/LHMYwAN5zWiCqVD29" class="rsvp-link">Dotazník</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="text">
+            <h2>Kontakty</h2>
+            <p>Do svatebního dne kontaktujte přímo nás - nevěstu a ženicha.<br>
+                Ve svatební den v případě nejasností prosíme o kontaktování jednoho ze svědků.<br>
+                Eva Bochoová - +420 739 149 720<br>
+                Petr Maňák - +420 736 658 227
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="textkolaz">
+            <h2 style="text-align:center">Těšíme se na Vás</h2>
+            <img class="kolaz" src="foto3.jpg">
+        </div>
+    </div>
+</body>
+</html>
